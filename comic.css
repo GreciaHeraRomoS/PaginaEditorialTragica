@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Assets/Cartas/Cartas%20planilla2.jpg);
+    background-size: cover;
+}
+
+
+/*Menu desplegable*/
+nav {
+    max-width:100;
+    background-color: #660099;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: Satans Minions;
+    font-size: 40px;
+    color: white;
+    margin-top: 25px;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    float: center;
+    margin-top: 26px;
+    font-family: Satans Minions;
+    font-size: 35px;
+    text-align: center;
+}
+
+.menu-horizontal > li:hover {
+    background-color: #990066;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+.cuerpo{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/*Catalogo*/
+
+.esa{
+    width: 30%;
+    float: left;
+}
+.comics{
+    float: left;
+}
+
+.imagen{
+    height: 180px ;
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+}
+.texto{
+    background-color: #990066;
+    height: 220px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.texto .container{
+    margin: 10px;
+}
+.texto .container h1{
+    margin: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.texto .container p{
+    margin: 10px;
+    font-size: 20px;
+}
+/*catalogo2*/
+
+.ese{
+    width: 30%;
+    float: left;
+}
+
+.comic2{
+    float: left;
+}
+
+.imagen2{
+    height: 180px ;
+    float: left;
+    margin-top: 45px;
+    width: 150px;
+}
+.texto2{
+    margin-top: 10px;
+    background-color: #990066;
+    height: 220px;
+    width: 150px;
+    float: right;
+    margin-right: 14px;
+}
+.texto2 .container2{
+    margin: 10px;
+}
+.texto2 .container2 h1{
+    margin: 10px;
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+.texto2 .container2 p{
+    font-size: 20px;
+    margin:10px;
+}
+
+/*Catalogo 3*/
+.tre{
+    width: 30%;
+    float: left;
+}
+
+.comic3{
+    float: left;
+}
+
+.imagen3{
+    height: 180px ;
+    float: left;
+    margin-top: 60px;
+    width: 150px;
+    margin-left: 14px;
+}
+.texto3{
+    margin-top: 30px;
+    background-color: #990066;
+    height: 220px;
+    width: 150px;
+    float: right;
+
+}
+.texto3 .container3{
+    margin: 10px;
+}
+.texto3 .container3 h1{
+    margin: 10px;
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+.texto3 .container3 p{
+    font-size: 20px;
+    margin:10px;
+}

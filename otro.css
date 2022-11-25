@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Assets/Cartas/Cartas%20planilla2.jpg);
+    background-size: cover;
+}
+
+
+/*Menu desplegable*/
+nav {
+    max-width:100%;
+    background-color: #660099;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: Satans Minions;
+    font-size: 40px;
+    color: white;
+    margin-top: 25px;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    float: center;
+    margin-top: 26px;
+    font-family: Satans Minions;
+    font-size: 35px;
+    text-align: center;
+}
+
+.menu-horizontal > li:hover {
+    background-color: #990066;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+/*Productos*/
+
+.uno{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.iz{
+    float: left;
+}
+
+.texto{
+    width: 500px;
+    float: left;
+    background-color: #990066;
+    margin-top: 30px;
+    font-family: Satans Minions;
+}
+
+.img{
+    width: 300px;
+}
+
+.de{
+    float: right;
+}
+
+.tex2{
+    width: 500px;
+    float: right;
+    background-color: #990066;
+    margin-top: 30px;
+    font-family: Satans Minions;
+}
+
+.img2{
+    width: 300px;
+
+}
+
